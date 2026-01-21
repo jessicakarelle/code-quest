@@ -1,2 +1,24 @@
-﻿body {
+﻿:root {
+    --bg-primary: #000000;
+    --text-primary-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-primary-color) !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-primary) !important;
+    color: var(--text-primary-color) !important;
 }
