@@ -10,23 +10,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Controllers\**" />
-    <Compile Remove="Models\**" />
+    <Compile Remove="NewFolder1\**" />
     <Compile Remove="Views\**" />
     <Compile Remove="wwwroot\NewFolder1\**" />
     <Compile Remove="wwwroot\NewFolder2\**" />
-    <Content Remove="Controllers\**" />
-    <Content Remove="Models\**" />
+    <Content Remove="NewFolder1\**" />
     <Content Remove="Views\**" />
     <Content Remove="wwwroot\NewFolder1\**" />
     <Content Remove="wwwroot\NewFolder2\**" />
-    <EmbeddedResource Remove="Controllers\**" />
-    <EmbeddedResource Remove="Models\**" />
+    <EmbeddedResource Remove="NewFolder1\**" />
     <EmbeddedResource Remove="Views\**" />
     <EmbeddedResource Remove="wwwroot\NewFolder1\**" />
     <EmbeddedResource Remove="wwwroot\NewFolder2\**" />
-    <None Remove="Controllers\**" />
-    <None Remove="Models\**" />
+    <None Remove="NewFolder1\**" />
     <None Remove="Views\**" />
     <None Remove="wwwroot\NewFolder1\**" />
     <None Remove="wwwroot\NewFolder2\**" />
@@ -37,7 +33,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\imgs\" />
+    <Folder Include="Data\" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
 </Project>
